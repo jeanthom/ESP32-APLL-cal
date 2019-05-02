@@ -10,3 +10,8 @@ The target values and parameters (target frequency, chip revision, Xtal) are har
 $ make
 $ ./esp32-apll-cal
 ```
+
+## Documentation
+
+ * [ESP32 Technical Reference Manual](https://www.espressif.com/sites/default/files/documentation/esp32_technical_reference_manual_en.pdf)
+ * [ESP32 ECO and Workarounds for Bugs](https://www.espressif.com/sites/default/files/documentation/eco_and_workarounds_for_bugs_in_esp32_en.pdf)
