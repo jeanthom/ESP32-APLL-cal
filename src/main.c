@@ -64,7 +64,7 @@ int main(int argc, char *argv[]) {
 	}
 
 	fOut = fXtal * (bestSdm2 + bestSdm1/256.0 + bestSdm0/65536.0 + 4) / (double)(2*(bestOdiv+2));
-	printf("f= %.01f Hz, ∆f=%.01f Hz (relative: %.04f%%)\n", fOut, fabs(fOut-fTarget), 100*fabs(fOut-fTarget)/fTarget);
+	printf("f=%.01f Hz, ∆f=%.01f Hz (relative: %.04f%%)\n", fOut, fabs(fOut-fTarget), 100*fabs(fOut-fTarget)/fTarget);
 	printf("sdm0=%d, sdm1=%d, sdm2=%d, odiv=%d\n", bestSdm0, bestSdm1, bestSdm2, bestOdiv);
 
 	return EXIT_SUCCESS;

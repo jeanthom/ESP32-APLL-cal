@@ -9,6 +9,8 @@ The target values and parameters (target frequency, chip revision, Xtal) are har
 ```
 $ make
 $ ./esp32-apll-cal
+f=24575996.4 Hz, ∆f=3.6 Hz (relative: 0.0000%)
+sdm0=149, sdm1=212, sdm2=5, odiv=6
 ```
 
 ## Documentation
